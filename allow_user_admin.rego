@@ -1,7 +1,9 @@
 package mypackage.allow_deny
 
-default allow = false
+import rego.v1
 
-allow {
-  input.user == "admin"
+default allow := false
+
+allow if {
+	input.user == "admin"
 }
