@@ -1,4 +1,4 @@
-package mypackage.allow_deny
+package mypackage.allow_superuser
 
 import rego.v1
 
